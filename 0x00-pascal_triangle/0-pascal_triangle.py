@@ -7,6 +7,7 @@ Return
     - an empty list if n <= 0
 """
 
+
 def pascal_triangle(n):
     'pascals triangle'
     final_list = [[1]]
@@ -15,7 +16,7 @@ def pascal_triangle(n):
     if n <= 0:
         return []
     if n == 1:
-        return [[1]] 
+        return [[1]]
     for i in range(n-1):
         currnt_list.append(1)
         for i in range(len(append_list) - 1):
