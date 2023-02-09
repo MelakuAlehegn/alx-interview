@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "request": "^2.88.2",
+    "requests": "^0.3.0"
+  },
+  "name": "0x06-starwars_api",
+  "description": "* The first positional argument passed is the Movie ID - example: 3 = “Return of the Jedi”\r * Display one character name per line in the same order as the “characters” list in the /films/ endpoint\r * You must use the Star wars API\r * You must use the request module",
+  "version": "1.0.0",
+  "main": "0-starwars_characters.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
